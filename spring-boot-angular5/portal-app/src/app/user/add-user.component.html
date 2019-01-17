@@ -1,0 +1,21 @@
+<div class="col-md-6">
+  <h2 class="text-center">Add Cliente</h2>
+<form>
+  <div class="form-group">
+    <label for="risco">Risco</label>
+    <input type="email" [(ngModel)]="user.risco" placeholder="Risco" name="risco" class="form-control" id="risco">
+  </div>
+
+  <div class="form-group">
+    <label for="firstName">First Name:</label>
+    <input [(ngModel)]="user.firstName" placeholder="First Name" name="firstName" class="form-control" id="firstName">
+  </div>
+
+  <div class="form-group">
+    <label for="limite">Limite Credito:</label>
+    <input [(ngModel)]="user.limite" placeholder="Limite Credito" name="limite" class="form-control" id="limite">
+  </div>
+
+  <button class="btn btn-success" (click)="createUser()">Create</button>
+</form>
+</div>
