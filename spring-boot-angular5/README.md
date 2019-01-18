@@ -13,7 +13,11 @@ para essa aplicação seguir a arquitetura microsservicos foi separado o front-e
 Ja no conceito dos microsserviços teremos controle separadamente de cada modulo utilizado pelos usuarios com mais agilidade a atendimento tanto para os usuarios quanto a praticidade para os desenvolvedores que forem fazer novas atualizações.
 
 Para realizar a subida da aplicação:
+<br>
 -Necessario Ter instalado o node-js para estartar o NPM server.
+<br>
 -Startar o Spring Boot
+<br>
 -Buildar a aplicação
+<br>
 -Acessar a URL: http://localhost:4200/
